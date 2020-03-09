@@ -24,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B12C4EC24125683005DDA76 /* KeyCode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KeyCode.hpp; sourceTree = "<group>"; };
 		7BDCE9F92410CC5D00D475FB /* Ocero */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ocero; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDCE9FC2410CC5D00D475FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7BDCEA032410CDF700D475FB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 			children = (
 				7BDCEA0524110F2B00D475FB /* ConsoleMode.cpp */,
 				7BDCEA0624110F2B00D475FB /* ConsoleMode.hpp */,
+				7B12C4EC24125683005DDA76 /* KeyCode.hpp */,
 			);
 			path = Console;
 			sourceTree = "<group>";
