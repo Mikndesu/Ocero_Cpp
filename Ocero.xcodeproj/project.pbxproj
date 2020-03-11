@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B5550F5241894F600E34814 /* GameBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B5550F3241894F600E34814 /* GameBoard.cpp */; };
+		7B5550F82418950700E34814 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B5550F62418950700E34814 /* Game.cpp */; };
 		7BDCE9FD2410CC5D00D475FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDCE9FC2410CC5D00D475FB /* main.cpp */; };
 		7BDCEA0724110F2B00D475FB /* ConsoleMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDCEA0524110F2B00D475FB /* ConsoleMode.cpp */; };
 /* End PBXBuildFile section */
@@ -25,6 +27,11 @@
 
 /* Begin PBXFileReference section */
 		7B12C4EC24125683005DDA76 /* KeyCode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KeyCode.hpp; sourceTree = "<group>"; };
+		7B5550F3241894F600E34814 /* GameBoard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameBoard.cpp; sourceTree = "<group>"; };
+		7B5550F4241894F600E34814 /* GameBoard.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameBoard.hpp; sourceTree = "<group>"; };
+		7B5550F62418950700E34814 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		7B5550F72418950700E34814 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		7B5550FB2418988200E34814 /* Util.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Util.hpp; sourceTree = "<group>"; };
 		7BDCE9F92410CC5D00D475FB /* Ocero */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Ocero; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDCE9FC2410CC5D00D475FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7BDCEA032410CDF700D475FB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -43,6 +50,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B5550F1241893C200E34814 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				7B5550F2241893CB00E34814 /* GameBoard */,
+				7B5550F62418950700E34814 /* Game.cpp */,
+				7B5550F72418950700E34814 /* Game.hpp */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		7B5550F2241893CB00E34814 /* GameBoard */ = {
+			isa = PBXGroup;
+			children = (
+				7B5550F3241894F600E34814 /* GameBoard.cpp */,
+				7B5550F4241894F600E34814 /* GameBoard.hpp */,
+			);
+			path = GameBoard;
+			sourceTree = "<group>";
+		};
+		7B5550F92418987300E34814 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7B5550FB2418988200E34814 /* Util.hpp */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		7BDCE9F02410CC5D00D475FB = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +97,8 @@
 		7BDCE9FB2410CC5D00D475FB /* Ocero */ = {
 			isa = PBXGroup;
 			children = (
+				7B5550F92418987300E34814 /* Util */,
+				7B5550F1241893C200E34814 /* Game */,
 				7BDCEA0424110EFF00D475FB /* Console */,
 				7BDCE9FC2410CC5D00D475FB /* main.cpp */,
 			);
@@ -137,7 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BDCEA0724110F2B00D475FB /* ConsoleMode.cpp in Sources */,
+				7B5550F5241894F600E34814 /* GameBoard.cpp in Sources */,
 				7BDCE9FD2410CC5D00D475FB /* main.cpp in Sources */,
+				7B5550F82418950700E34814 /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
